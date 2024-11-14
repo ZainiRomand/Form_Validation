@@ -1,0 +1,56 @@
+body {
+    height:fit-content;
+    background-color:dimgray;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#langRadio {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    padding-right: 50px;
+}
+
+.row.top-box {
+    height: 150px;
+    border:none;
+    background-color: yellow;
+}
+
+.row.align-items-center {
+    padding-top: 20px;
+    height: fit-content;
+    background-color: white;
+}
+
+.row.bottom-box {
+    height: 150px;
+    border:none;
+    background-color:dimgray;
+}
+
+.table {
+    background-color: whitesmoke;
+    border:white;
+    border-style:hidden;
+}
+
+
+#registersubmit {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#errortags {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size:medium;
+    font-weight: bold;
+    color: crimson;
+}
